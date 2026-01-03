@@ -7,13 +7,13 @@
     "icon": "./assets/images/icon.png",
     "scheme": "androidapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.nhannguyen.amenoapp"
     },
     "android": {
-      "package": "com.yourname.androidapp",
+      "package": "com.nhannguyen.amenoapp",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -46,7 +46,6 @@
           }
         }
       ],
-      "@react-native-community/datetimepicker",
       [
         "expo-notifications",
         {
